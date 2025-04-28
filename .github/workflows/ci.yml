@@ -1,0 +1,14 @@
+name: Simple CI Workflow
+
+on:
+  push:  # run this workflow when someone pushes code
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # use an Ubuntu machine
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run a script
+        run: echo "Hello, GitHub Actions!"
