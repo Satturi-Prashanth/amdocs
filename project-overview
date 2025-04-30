@@ -1,0 +1,64 @@
+PROJECT: ROBOT-SHOP (Microservices-architecture)
+    
+       Create a Infrastructure Using the Terraform  , Build a Docker Images and Push all the docker images into hub.docker.com , Deploy the application in a Kubernetes Cluster the cluster endpoint should be private , Expose the application the ingress , Convert entire application into Helm Charts , Deploy helm charts using the ARGOCD , You have to implement Security for this application need to check the code quality using the SonarQube Server. Implement the End to End Pipeline for the Give Repo.
+ 
+
+    2. Project Title: ROBOT-SHOP-DOCKER
+      
+       This is a complete end-to-end DevOps project that focuses on building, securing, and deploying a microservices-based application using modern DevOps tools and practices.
+   
+     . Automate infrastructure creation and application deployment.
+     .  Containerize microservices and manage them efficiently.
+     .  Ensure security, code quality, and continuous delivery.
+   
+  3.  Methodology & Tools Used
+      
+     . Infrastructure as Code (Terraform)
+       
+        By using terraform Created a secure private Kubernetes cluster on AWS using Terraform.
+         All infrastructure like VPC, subnets, nodes, security groups was defined as code.
+      
+    .  Docker Image Creation & Push
+  
+       Built Docker images for all Robot-Shop microservices.
+       Pushed all images to hub.docker.com
+
+    . Kubernetes Deployment
+      
+      Deployed the application into the Kubernetes cluster using YAML files.
+      The cluster endpoint is private for enhanced security.
+
+    . Ingress Controller Setup
+     
+       Configured Ingress to expose the services using a domain-based route.
+   
+    . Helm Chart Conversion
+
+       Converted all Kubernetes manifests into Helm charts to simplify and standardize deployment.
+
+    . ARGOCD Integration
+     
+      Used ARGOCD automated deployment of Helm charts into the cluster.
+      if any change we want automatically triggers the deployment.
+   
+    .  Code Quality (SonarQube)
+      
+        Integrated SonarQube to scan the source code for bugs, vulnerabilities, and code smells before deployment.
+
+    .  CI/CD Pipeline
+
+        Implemented a full End-to-End CI/CD Pipeline using Jenkins.
+    
+       Pipeline stages
+
+        Code Checkout
+        Docker Build & Push
+         SonarQube Scan
+         Helm Chart Deployment ARGOCD
+    
+    . 🙏 Conclusion
+       
+         This project helped me build a complete DevOps workflow using the latest tools and practices.
+                    It reflects how real-world organizations manage microservices in production environments.
+                                                                                                     Thank you!
+      
